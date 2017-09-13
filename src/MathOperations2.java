@@ -16,12 +16,19 @@ public class MathOperations2 {
         double sum = a + b;
         double difference = a - b;
         double division = a / b;
-        double multiplication = a*b;
-        double remainder = a%b;
+        double multiplication = a * b;
+        double remainder = a % b;
 
+        showResults(sum, difference, division, multiplication, remainder);
+    }
+
+
+    public static void showResults(double sum, double difference, double division, double multiplication, double remainder) {
         System.out.println("the sum is" + sum);
         System.out.println("the difference is " + difference);
         System.out.println("When divided the qoutient is: " + division);
         System.out.println("When numbers are multiplied:" + multiplication);
         System.out.println("the remainder is: " + remainder);
+
     }
+}
